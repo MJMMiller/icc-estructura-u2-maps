@@ -62,10 +62,10 @@ public class App {
 
     private static void runEjercicios() {
         Ejercicios ejercicios = new Ejercicios();
-
-        System.out.println(ejercicios.areAnagrams("listen", "silent"));
-        System.out.println(ejercicios.areAnagrams("hello", "bello"));
-        System.out.println(ejercicios.areAnagrams("triangle", "integral"));
+        System.out.println("\n---------------- Ejercicio con Anagrama ---------------- ");
+        System.out.println("\nPalabras: listen / silent: " + ejercicios.areAnagrams("listen", "silent"));
+        System.out.println("Palabras: hello / bello: " + ejercicios.areAnagrams("hello", "bello"));
+        System.out.println("Palabras: triangle / integral: " + ejercicios.areAnagrams("triangle", "integral"));
 
 
     }
