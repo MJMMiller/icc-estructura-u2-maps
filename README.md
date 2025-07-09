@@ -1,3 +1,111 @@
+# Práctica de Uso de Colecciones Map en Java
+
+## 📌 Información General
+
+- **Título:** Práctica de Uso de HashMap, LinkedHashMap, TreeMap y Modelado de Objetos
+- **Asignatura:** Estructura de Datos
+- **Carrera:** Computación
+- **Estudiante:** Mateo Miller
+- **Fecha:** 08 / 07 / 2025
+- **Profesor:** Ing. Pablo Torres
+
+---
+
+## 🛠️ Descripción
+
+Este proyecto en Java implementa y demuestra el funcionamiento de las principales colecciones **Map**:  
+**HashMap**, **LinkedHashMap** y **TreeMap**, así como el uso de objetos personalizados como valores y claves en los mapas.
+
+Incluye:
+
+- 🗺️ **HashMap:** Almacena pares clave-valor sin garantizar orden de recorrido.
+- 🗺️ **LinkedHashMap:** Almacena pares clave-valor manteniendo el orden de inserción.
+- 🗺️ **TreeMap:** Almacena pares clave-valor ordenados por la clave (requiere que la clave sea comparable).
+- 👨‍💼 **Objetos personalizados:** Ejemplo práctico con objetos `Empleado` tanto como clave como valor en los mapas.
+- 📋 **Ejercicios extra:** Métodos para anagramas, sumatoria de dos, y conteo de caracteres (propuestos, no implementados).
+
+---
+
+## 🧪 Estructura
+
+- `controllers/Mapa.java`: Métodos con ejemplos de uso de HashMap, LinkedHashMap y TreeMap.
+- `models/Empleado.java`: Clase que representa empleados (id, nombre, puesto) y soporta uso en mapas como clave y valor.
+- `controllers/EmpleadoContoller.java`: Estructura para futuros ejercicios relacionados con empleados.
+- `controllers/Ejercicios.java`: Ejercicios extra propuestos (anagramas, sumas, conteo de caracteres).
+- `App.java`: Punto de entrada que ejecuta los ejemplos y muestra los resultados en consola.
+
+---
+
+## 🚀 Ejecución
+
+Para ejecutar el proyecto:
+
+1. Compila el código:
+    ```bash
+    javac App.java
+    ```
+2. Ejecuta la aplicación:
+    ```bash
+    java App
+    ```
+
+---
+
+## 🧑‍💻 Ejemplo de Salida
+
+```
+Nombre: Mateo Miller
+-------Ejercicio 1--------
+
+Mapa de capitales:
+La capital de Ecuador es Quito
+La capital de Colombia es Bogota
+La capital de Peru es Lima
+
+La capital de Ecuador es: Quito
+Clave: 1, Valor: ID: 1, Name: Ana, Position: Dev
+Clave: 2, Valor: ID: 2, Name: Luis, Position: Disenador
+Clave: 3, Valor: ID: 3, Name: Pedro, Position: Tester
+ID: 1, Name: Ana, Position: Dev => 1000
+ID: 2, Name: Pedro, Position: Tester => 1200
+ID: 3, Name: Ana, Position: Dev => 2000
+-------Ejercicio 3--------
+
+Productos y precios:
+El precio de Manzana es 100 pesos
+El precio de Pera es 80 pesos
+El precio de Banana es 50 pesos
+El precio de Naranja es 60 pesos
+El precio de Kiwi es 70 pesos
+
+El precio de la Manzana es: 100
+-------Ejercicio 2--------
+
+Personas:
+ID: 1, Nombre: Juan
+ID: 2, Nombre: Maria
+ID: 3, Nombre: Pedro
+
+El nombre de la persona con ID 1 es: Juan
+ID: 1, Name: Ana, Position: Dev => 1000
+ID: 2, Name: Pedro, Position: Tester => 1200
+ID: 3, Name: Ana, Position: Dev => 2000
+```
+
+---
+
+## 📂 Organización Sugerida de Archivos
+
+```
+/controllers
+    Mapa.java
+    EmpleadoContoller.java
+    Ejercicios.java
+/models
+    Empleado.java
+App.java
+```
+
 # Non-Linear Data Structures 
 
 ## Getting Started
