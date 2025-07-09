@@ -11,6 +11,10 @@ public class Empleado implements Comparable<Empleado> {
         this.position = position;
     }
 
+    public Empleado(int id){
+        this.id = id;
+    }
+
     public int getId() {
         return id;
     }
@@ -30,17 +34,24 @@ public class Empleado implements Comparable<Empleado> {
 
     @Override
     public int hashCode() {
-        return Integer.hashCode(id);
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + id;
+        return result;
     }
 
     @Override
     public boolean equals(Object obj) {
         if (this == obj)
             return true;
-        if (obj == null || getClass() != obj.getClass())
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
             return false;
         Empleado other = (Empleado) obj;
-        return id == other.id;
+        if (id != other.id)
+            return false;
+        return true;
     }
 
     @Override
