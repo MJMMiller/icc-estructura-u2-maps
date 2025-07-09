@@ -55,9 +55,10 @@ Para ejecutar el proyecto:
 
 ```
 Nombre: Mateo Miller
--------Ejercicio 1--------
 
-Mapa de capitales:
+---------------- Ejercicio 1 ----------------
+
+Mapa de capitales: 
 La capital de Ecuador es Quito
 La capital de Colombia es Bogota
 La capital de Peru es Lima
@@ -69,17 +70,8 @@ Clave: 3, Valor: ID: 3, Name: Pedro, Position: Tester
 ID: 1, Name: Ana, Position: Dev => 1000
 ID: 2, Name: Pedro, Position: Tester => 1200
 ID: 3, Name: Ana, Position: Dev => 2000
--------Ejercicio 3--------
 
-Productos y precios:
-El precio de Manzana es 100 pesos
-El precio de Pera es 80 pesos
-El precio de Banana es 50 pesos
-El precio de Naranja es 60 pesos
-El precio de Kiwi es 70 pesos
-
-El precio de la Manzana es: 100
--------Ejercicio 2--------
+---------------- Ejercicio 2 ----------------
 
 Personas:
 ID: 1, Nombre: Juan
@@ -90,6 +82,35 @@ El nombre de la persona con ID 1 es: Juan
 ID: 1, Name: Ana, Position: Dev => 1000
 ID: 2, Name: Pedro, Position: Tester => 1200
 ID: 3, Name: Ana, Position: Dev => 2000
+
+---------------- Ejercicio 3 ----------------
+
+Productos y precios:
+El precio de Manzana es 100 pesos
+El precio de Pera es 80 pesos
+El precio de Banana es 50 pesos
+El precio de Naranja es 60 pesos
+El precio de Kiwi es 70 pesos
+
+El precio de la Manzana es: 100
+
+---------------- Ejercicio con DAO ----------------
+-- HashMap
+ID: 1, Name: Jose, Position: Dev
+ID: 2, Name: Pedro, Position: Dev
+ID: 3, Name: Juan, Position: Dev
+ID: 4, Name: Pedro, Position: Dev
+ID: 5, Name: Pedro, Position: Dev
+
+-- TreeMap
+ID: 1, Name: Jose, Position: Dev
+ID: 2, Name: Pedro, Position: Dev
+ID: 3, Name: Juan, Position: Dev
+ID: 4, Name: Pedro, Position: Dev
+ID: 5, Name: Pedro, Position: Dev
+true
+false
+true
 ```
 
 ---
