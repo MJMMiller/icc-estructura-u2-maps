@@ -58,7 +58,7 @@ Nombre: Mateo Miller
 
 ---------------- Ejercicio 1 ----------------
 
-Mapa de capitales: 
+Mapa de capitales:
 La capital de Ecuador es Quito
 La capital de Colombia es Bogota
 La capital de Peru es Lima
@@ -108,9 +108,25 @@ ID: 2, Name: Pedro, Position: Dev
 ID: 3, Name: Juan, Position: Dev
 ID: 4, Name: Pedro, Position: Dev
 ID: 5, Name: Pedro, Position: Dev
-true
-false
-true
+
+---------------- Ejercicio con Anagrama ----------------
+
+Palabras: listen / silent: true
+Palabras: hello / bello: false
+Palabras: triangle / integral: true
+
+---------------- Ejercicio sumaDos ----------------
+
+Numeros: [9,2,3,6] - Objetivo: 5 : [1,2]
+Numeros: [9,2,3,6] - Objetivo: 10 : null
+
+---------------- Ejercicio contarCaracteres ----------------
+
+Palabra a contar (hola): {h=1, o=1, l=1, a=1}
+
+---------------- Ejercicio con Anagrama ----------------
+
+Palabras: roma / amor: true
 ```
 
 ---

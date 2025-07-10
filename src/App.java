@@ -67,6 +67,32 @@ public class App {
         System.out.println("Palabras: hello / bello: " + ejercicios.areAnagrams("hello", "bello"));
         System.out.println("Palabras: triangle / integral: " + ejercicios.areAnagrams("triangle", "integral"));
 
+        System.out.println("\n---------------- Ejercicio sumaDos ---------------- ");
+        int[] numsA = {9, 2, 3, 6};
 
+        int objetivoA = 5;
+        int[] resA = ejercicios.sumatoriaDeDos(numsA, objetivoA);
+
+        if (resA != null) {
+            System.out.println("\nNumeros: [9,2,3,6] - Objetivo: 5 : " + "[" + resA[0] + "," + resA[1] + "]");
+        } else {
+            System.out.println("Numeros: [9,2,3,6] - Objetivo: 5 : null");
+        }
+
+        int objetivoB = 10;
+        int[] resB = ejercicios.sumatoriaDeDos(numsA, objetivoB);
+
+        if (resB != null) {
+            System.out.println("Numeros: [9,2,3,6] - Objetivo: 10 : " + "[" + resB[0] + "," + resB[1] + "]");
+        } else {
+            System.out.println("Numeros: [9,2,3,6] - Objetivo: 10 : null");
+        }
+
+        System.out.println("\n---------------- Ejercicio contarCaracteres ---------------- ");
+        System.out.print("\nPalabra a contar (hola): ");
+        ejercicios.contarCaracteres("hola");
+
+        System.out.println("\n---------------- Ejercicio con Anagrama ---------------- ");
+        System.out.println("\nPalabras: roma / amor: " + ejercicios.sonAnagramas("roma", "amor"));
     }
 }
